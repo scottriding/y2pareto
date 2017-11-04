@@ -1,0 +1,22 @@
+Type: Package
+Package: y2pareto
+Title: Convenience functions to make the 80% of data preparation faster
+Version: 0.1.0
+Authors@R: person('Scott', 'Riding', email = "scott@y2analytics.com", role = c('aut', 'cre'))
+Maintainer: Scott Riding <scott@y2analytics.com>
+Description: Convenience functions for converting and recoding data into the
+    right formats to execute analysis and visualization at Y2 Analytics.
+    These functions fall into two categories: 1) conversion functions, generally
+    used to convert data from an SPSS labelled format into something more useful
+    to us, and 2) recoding functions, generally used to combined a given 
+    column into a new categorization schema.
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.4.1)
+Imports:
+    tidyverse (>= 1.1.1),
+    labelled (>= 1.0.0),
+    forcats (>= 0.2.0)
+RoxygenNote: 6.0.1
